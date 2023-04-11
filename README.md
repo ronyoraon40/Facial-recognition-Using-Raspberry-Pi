@@ -47,4 +47,4 @@ sudo raspi-config
 
 	sudo nano /etc/dphys-swapfile
 	
-	Replace this file: **CONF_SWAPSIZE=100** 'with' CONF_SWAPSIZE=2048        #Press: Ctrl X, Y, and <enter>
+	Replace this file: __CONF_SWAPSIZE=100__ 'with' CONF_SWAPSIZE=2048        #Press: Ctrl X, Y, and <enter>
