@@ -44,3 +44,7 @@ sudo raspi-config
   	sudo apt install python3-dev python3-pip python3-numpy
   
 # Now we will now need to temporarily increase the size of the swap space to help the process of compiling OpenCV on the Raspberry Pi.
+
+	sudo nano /etc/dphys-swapfile
+	
+	Replace this file: CONF_SWAPSIZE=100 'with' CONF_SWAPSIZE=2048        #Press: Ctrl X, Y, and <enter>
