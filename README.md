@@ -127,5 +127,32 @@ If opencv is imported, it will generate a new line. To retrieve OpenCV’s versi
 
 # Steps for Code Execution
 
+# Collecting Data
 Navigate inside **dataset** folder. Create a folder by your name, for e.g., Helen.
-Now open dataset.py code if you are using webcam (or) open dataset
+
+Now open **dataset.py** code if you are using webcam (or) open **dataset_pi** if you are using Pi Camera. Both the codes execution are exactly the same.
+
+Inside the code, type your exact folder name which is present inside dataset folder. 
+
+Run the code using Geany editor. Upon running, press **spacebar** to capture the image. Take atleast 8-10 images with different profile angles. Press **Ctrl + C** to stop the execution.
+
+Now open and run **train.py** code. This will process and generate facial recording encodings based on the captured images.
+
+Finally run **facial_req.py**. Running this code will detect your face with a box surrounded aroud your face and your name will appear on top of the box. You can change the color of the box according to your choice. 
+
+If anyone else's face is detected, status will display unknown.
+
+# Future Purpose
+
+You can add multiple applications on this code. Some of the applications are mentioned below:
+
+	Bank Security
+	Anti-theft alarm
+	Smart Home Access
+	Access Control
+	Automobile Security
+	Immigration
+	Education
+	Retail
+	Healthcare
+	Fleet Management
