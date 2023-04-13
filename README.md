@@ -141,7 +141,8 @@ If opencv is imported, it will generate a new line. To retrieve OpenCV’s versi
 
 # Collecting Data
 Create folder named **dataset**. Navigate inside **dataset** folder. Create a folder by your name, for e.g., Helen.
-![Face-Recognition-System-Directories](https://user-images.githubusercontent.com/130435486/231690978-23da0406-5d27-4422-9d9c-3d8701352d8c.png)
+	
+	![Face-Recognition-System-Directories](https://user-images.githubusercontent.com/130435486/231690978-23da0406-5d27-4422-9d9c-3d8701352d8c.png)
 
 
 Now open **dataset.py** code if you are using webcam (or) open **dataset_pi** if you are using Pi Camera. Both the codes execution are exactly the same.
