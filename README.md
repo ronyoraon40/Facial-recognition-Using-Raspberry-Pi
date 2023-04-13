@@ -1,3 +1,15 @@
+# Set up Raspberry Pi for Operating Headless Mode:
+Download Advanced IP Scanner and VNC Viewer
+
+Flash Raspbian OS buster for OpenCV. Do not flash 32bit or 64 bit OS image.
+
+OS Link: 
+	
+	https://www.raspberrypi.com/software/
+Link for flashing
+	
+	https://medium.com/digital-software-architecture/raspberry-pi-headless-configuration-ac0a3a31d184
+	
 # Prepare Raspberry Pi
 
 Enable Pi Camera and VNC
@@ -128,7 +140,7 @@ If opencv is imported, it will generate a new line. To retrieve OpenCV’s versi
 # Steps for Code Execution
 
 # Collecting Data
-Navigate inside **dataset** folder. Create a folder by your name, for e.g., Helen.
+Create folder named **dataset**. Navigate inside **dataset** folder. Create a folder by your name, for e.g., Helen.
 
 Now open **dataset.py** code if you are using webcam (or) open **dataset_pi** if you are using Pi Camera. Both the codes execution are exactly the same.
 
