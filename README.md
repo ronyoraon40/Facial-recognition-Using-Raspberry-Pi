@@ -137,12 +137,12 @@ Inside the code, type your exact folder name which is present inside dataset fol
 Run the code using Geany editor. Upon running, press **spacebar** to capture the image. Take atleast 8-10 images with different profile angles. Press **Ctrl + C** to stop the execution.
 
 # Training Model
-Open and run **train.py** code. This will process and generate facial recording encodings based on the captured images.
+After the images are saved in the **dataset** directory, open and run **train.py** code. This will process and generate facial recording encodings based on the captured images.
 
 # Recognize
-Finally run **facial_req.py**. Running this code will detect your face with a box surrounded aroud your face and your name will appear on top of the box. You can change the color of the box according to your choice. 
+Finally run **facial_req.py**. Executing this code will detect your face with a box surrounded aroud your face and your name will appear on top of the box. You can change the color of the box according to your choice. 
 
-If anyone else's face is detected, status will display unknown.
+If anyone else's face is detected, status will display **UNKNOWN**
 
 # Future Purpose
 
