@@ -1,4 +1,4 @@
-# Prepare your hardware
+# Prepare Raspberry Pi
 
 Enable Pi Camera and VNC
 
@@ -118,13 +118,14 @@ If opencv is imported, it will generate a new line. To retrieve OpenCV’s versi
 	
 	cv2.__version__
 	
-# Install Face Recognition and its required dependencies:
+# Install Face Recognition and its Required Dependencies:
 	
 	pip install imutils
 	pip install dlib
 	pip install pillow
 	pip install face-recognition --no-cache-dir
 
-# Steps to run the codes
+# Steps for Code Execution
 
-Navigate inside **dataset** folder. Create a folder by your name, for e.g., Rony. 
+Navigate inside **dataset** folder. Create a folder by your name, for e.g., Helen.
+Now open dataset.py code if you are using webcam (or) open dataset
