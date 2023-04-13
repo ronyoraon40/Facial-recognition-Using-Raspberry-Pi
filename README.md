@@ -6,7 +6,7 @@ Flash Raspbian OS buster for OpenCV. Do not flash 32bit or 64 bit OS image.
 OS Link: 
 	
 	https://www.raspberrypi.com/software/
-Link for flashing
+Flashing Link:
 	
 	https://medium.com/digital-software-architecture/raspberry-pi-headless-configuration-ac0a3a31d184
 	
